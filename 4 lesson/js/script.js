@@ -85,3 +85,11 @@ else { console.log('Это ЧЕТНОЕ ЧИСЛО') }
 
 console.log('3 task')
 
+let name = 'Teacher'
+
+if (name == null) {
+    console.log('Hello, guest!')
+}
+else {
+    console.log('Hello, ' + name)
+}
