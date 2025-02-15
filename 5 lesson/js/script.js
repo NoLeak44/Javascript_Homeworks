@@ -101,7 +101,7 @@ switch (true) {
         drinkSuggestion = 'День! Как насчет освежающего лимонада?'
         break;
     case (currentHour >= 18 && currentHour < 22):
-        drinkSuggestion = 'Вечер! Рекомендуем расслабиться с чашкой чая.'
+        drinkSuggestion = 'Вечер! Рекомендуется расслабиться с чашкой чая.'
         break;
     case ((currentHour >= 22 && currentHour <= 23) || (currentHour >= 0 && currentHour < 6)):
         drinkSuggestion = 'Ночь! Лучше выпить стакан воды перед сном.'
