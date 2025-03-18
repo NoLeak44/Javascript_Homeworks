@@ -86,5 +86,5 @@ function arraySorting(array1) {
     return sortedArray;
 }
 
-console.log(arraySorting([1, 3, 65, 4, 9, 7, 10, 12]));
+console.log(arraySorting([1, 3, 65, 4, 9, 7, 10, 12, -3535, -9, 8, 0]));
 
