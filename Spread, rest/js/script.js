@@ -3,12 +3,12 @@
 /*
 Задание 1.  Создай функцию, которая принимает произвольное количество чисел и возвращает их среднее значение;
 */
-function sum([a, b, c]) {
-    return (a + b + c) / numbers.length;
+
+function average(...numbers) {
+    return (numbers.reduce((acc, num) => acc + num, 0) / numbers.length);
 }
 
-const numbers = [44, 25, 63];
-console.log(sum(numbers));
+console.log(average(489, 673, 812, 59, 72))
 
 // 2 task
 
