@@ -37,7 +37,7 @@ console.log(link.getAttribute('href'));
 //6. Создай новый элемент, добавь к нему класс и добавь его в DOM;
 
 const newElement = document.createElement('div');
-newElement.textContent = 'Оппа! А вот тут новенький элемент! И у него даже свой класс есть, еще и с обработками)';
+newElement.textContent = 'Оппа! А вот тут новенький элемент! И у него даже свой класс есть, еще и с обработками) (но в 7 задании я изменил его класс, и оформление упало:[  )';
 newElement.classList.add('newClass');
 document.body.appendChild(newElement);
 
