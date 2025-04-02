@@ -10,8 +10,8 @@ if(person.age>18){console.log('Adult');}
 else{console.log('Minor');}
 */
 
-function multiply(a, b) {
-  return a * b;
+function multiply(firstVar, secondVar) {
+  return firstVar * secondVar;
 }
 const person = { 
   name: 'Alice', 
@@ -51,7 +51,11 @@ function calculateTotal(items) {
   return items.reduce(function(total, item) {return total + item.price; }, 0); }
 */
 const items = ['apple', 'banana', 'orange'];
-const price = {apple: 1, banana: 2, orange: 3};
+const price = {
+  apple: 1, 
+  banana: 2, 
+  orange: 3
+};
 const total = price.apple + price.banana + price.orange;
 
 function calculateTotal(items) {
