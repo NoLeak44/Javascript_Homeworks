@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест по веб-разработке</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main class="app">
+    <section class="quiz">
+    <header class="quiz__header">
+        <p class="quiz__label">Интерактивный тест</p>
+        <h1>Тест по основам веб-разработки</h1>
+        <p class="quiz__subtitle">
+        Вопросы с вариантами ответов и свободным вводом. На каждый вопрос даётся 15 секунд.
+        </p>
+    </header>
+    <div class="stats">
+        <span id="progress">Вопрос 0 из 0</span>
+        <span id="timer">15 сек.</span>
+        <span id="bestResult">Лучший результат: пока нет</span>
+    </div>
+
+    <section id="questionArea" class="question-area hidden" aria-live="polite">
+        <h2 id="questionText"></h2>
+        <div id="answersArea" class="answers"></div>
+        <p id="feedback" class="feedback"></p>
+    </section>
+
+    <section id="resultArea" class="result hidden">
+        <h2>Результат</h2>
+        <p id="resultText"></p>
+    </section>
+    <div class="actions">
+        <button id="startBtn" type="button">Начать тест</button>
+        <button id="restartBtn" type="button" class="secondary hidden">Перезапустить тест</button>
+    </div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
